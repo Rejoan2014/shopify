@@ -1,0 +1,42 @@
+.fancy-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &__profile {
+        img {
+            border-radius: 100px;
+        }
+    }
+    &-content {
+        &__value {
+            h5 {
+                color: $theme-color;
+                padding-bottom: 8px;
+            }
+        }
+        &__title{
+            text-transform: uppercase;
+            padding-bottom: 8px;
+        }
+        &__desc {
+            font-size: 16px;
+        }
+
+    }   
+
+}
+
+
+// Rating
+.rating {
+    &-box {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 16px;
+    }
+    &__details {
+        text-align: end;
+    }    
+}

@@ -1,0 +1,31 @@
+.project1 {
+    &-card {
+        position: relative;
+        &__thumb {
+            position: relative;
+        }
+    }
+    &-card-content {
+        padding: 20px 24px;
+        border-radius: 12px;
+        background: var(--White, #FEFEFE);
+        position: absolute;
+        left: 28px;
+        right: 28px;
+        bottom: 28px;
+        
+        &__link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                color: var(--Black, #262626);
+                font-family: "Plus Jakarta Sans";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px; /* 166.667% */
+            }
+        }
+    }
+}

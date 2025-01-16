@@ -1,0 +1,22 @@
+/*----------------------------------------------
+    # Container  style here
+----------------------------------------------*/
+@media (min-width:1400px) { 
+    .causes-wrapper{
+        &.style1{
+            .container{
+                max-width: 1352px;
+            }
+        }
+    }
+
+}
+@media (min-width:1600px) { 
+    .footer-widgets-wrapper{
+        &.style1{
+            .container{
+                max-width: 1338px;
+            }
+        }
+    }
+}

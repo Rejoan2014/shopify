@@ -1,0 +1,215 @@
+/* --------------------------------------------
+    Template Default Fonts & Fonts Styles
+ ---------------------------------------------- */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+$title-font: "Oswald", serif;
+$body-font:  "Plus Jakarta Sans", serif;
+$fa: "Font Awesome 6 Pro";
+body {
+    font-family: $body-font;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+    color: $text-color;
+    background-color: $white;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+input:focus {
+    color: $text-color;
+    outline: none;
+}
+
+input {
+    &::placeholder {
+        color: #767771;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $title-font;
+    margin: 0px;
+    padding: 0;
+    color: $header-color;
+    @include transition;
+}
+
+h1 {
+    color: var(--Text-Colour, #041319);
+    font-family: $title-font;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;  
+    @include breakpoint(max-xxl) {
+        font-size: 50px;
+    }
+    @include breakpoint(max-md) {
+        font-size: 48px; 
+    }
+}
+
+h2 {
+    font-family: $title-font;
+    color: $title-color; 
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 66px; 
+    letter-spacing: -1.2px;
+    text-transform: uppercase;
+    @include breakpoint(max-xxl) {
+        font-size: 45px;
+    }
+    @include breakpoint(max-md) {
+        font-size: 40px;
+    }
+}
+
+h3 { 
+    color: $title-color;
+    font-family: $title-font;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;  
+    @include breakpoint(max-xl) {
+        font-size: 24px;
+    }
+
+    @include breakpoint (max-md) {
+        font-size: 20px;
+    } 
+}
+
+h4 {
+    color: $title-color;
+    font-family: $title-font;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 122%;
+    @include breakpoint(max-xxl) {
+        font-size: 20px;
+    }
+}
+
+h5 {
+    font-family: $title-font;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 145%;
+}
+
+h2 a {
+    font-family: $title-font;
+    font-size: 70px;
+    line-height: 124%;
+    font-weight: 700;
+    display: inline-block;
+    @include breakpoint(max-md) {
+        font-size: 34px;
+    }
+    @include breakpoint(max-sm) {
+        font-size: 28px;
+    }
+}
+
+h3 a {
+    font-family: $title-font;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 122%;
+    display: inline-block;
+    @include breakpoint(max-md) {
+        font-size: 16px;
+    }
+}
+
+h4 a {
+    font-family: $title-font;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 122%;
+    display: inline-block;
+
+    @include breakpoint (max-xxsmall) {
+        font-size: 20px;
+    }
+}
+
+h5 a {
+    font-family: $title-font;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: inline-block;
+}
+
+h6 a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 145%;
+}
+
+a {
+    text-decoration: none;
+    outline: none !important;
+    cursor: pointer;
+    color: $header-color;
+    @include transition;
+    &:hover {
+        color: $theme-color-2!important;
+    }
+}
+
+p {
+    margin: 0px;
+    @include transition;
+    font-family: $body-font;
+    color: $text-color;  
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;  
+}
+
+span {
+    margin: 0px;
+    @include transition;
+}
+span a{
+    font-family: $body-font;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}

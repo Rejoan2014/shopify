@@ -1,0 +1,62 @@
+/*----------------------------------------------
+    # Buttons style here
+----------------------------------------------*/
+
+.theme-btn {
+    &.style1 {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        color: $white;
+        font-family: $title-font;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.36px;
+        text-transform: uppercase;
+        border-radius: 6px;
+        background: $theme-color;
+        padding: 22px 28px;
+        border: 1px solid transparent;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        a {
+            color: $white!important;
+            display: inline-block;
+        }
+        i {
+            margin-left: 6px;
+        }
+        &:before {
+            transition-duration: 800ms;
+            position: absolute;
+            width: 210%;
+            height: 290%;
+            content: "";
+            top: 162%;
+            left: 50%;
+            background: $theme-color-2;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%) rotate(-8deg);
+            border-radius: 80%;
+            z-index: -1;
+        }
+        &:hover {
+            color: $theme-color !important;
+            border: 1px solid $text-color;
+            &.gt-btn-icon-1 {
+                &::after {
+                    color: $theme-color;
+                }
+            }
+            &:before {
+                top: -96%;
+            }
+        }
+    } 
+}

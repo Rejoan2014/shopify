@@ -1,0 +1,30 @@
+
+.client1 {
+    &-wrapper {
+        padding: 80px 0;
+        text-align: center;
+    }
+    
+    &__title {
+        color: #FFF; 
+        font-family: $title-font;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.2;  
+        margin-bottom: 40px;
+    }
+
+    &-slider {
+        &__thumb {
+            text-align: center;
+
+            img {
+                width: 200px;
+                height: 40px;
+                object-fit: contain;
+            }
+
+        }
+    }
+}

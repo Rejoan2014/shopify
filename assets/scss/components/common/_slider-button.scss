@@ -1,0 +1,32 @@
+/*----------------------------------------------
+    # Buttons style here
+----------------------------------------------*/
+.slider-btn {
+    @include flex;
+    justify-content: end;
+    gap: 12px;
+    .style1 {
+        display: flex;
+        width: 64px;
+        height: 64px;
+        padding: 22px 28px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 42px;
+        border: 1px solid rgba(38, 38, 38, 0.30);
+
+        img {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+            max-width: fit-content;
+        }
+
+        &:hover {
+            background: $theme-color;
+            color: $white;
+            border: 1px solid transparent;
+        }
+    }
+}
