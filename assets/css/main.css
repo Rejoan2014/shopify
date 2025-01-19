@@ -588,208 +588,6 @@ button {
   padding: 0;
 }
 
-input:focus {
-  color: var(--text);
-  outline: none;
-}
-
-input::placeholder {
-  color: #767771;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Oswald", serif;
-  margin: 0px;
-  padding: 0;
-  color: var(--header);
-  transition: all 0.4s ease-in-out;
-}
-
-h1 {
-  color: var(--Text-Colour, #041319);
-  font-family: "Oswald", serif;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.2;
-}
-@media (max-width: 1399px) {
-  h1 {
-    font-size: 50px;
-  }
-}
-@media (max-width: 767px) {
-  h1 {
-    font-size: 48px;
-  }
-}
-
-h2 {
-  font-family: "Oswald", serif;
-  color: var(--title);
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 66px;
-  letter-spacing: -1.2px;
-  text-transform: uppercase;
-}
-@media (max-width: 1399px) {
-  h2 {
-    font-size: 45px;
-  }
-}
-@media (max-width: 767px) {
-  h2 {
-    font-size: 40px;
-  }
-}
-
-h3 {
-  color: var(--title);
-  font-family: "Oswald", serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.2;
-}
-@media (max-width: 1199px) {
-  h3 {
-    font-size: 24px;
-  }
-}
-@media (max-width: 767px) {
-  h3 {
-    font-size: 20px;
-  }
-}
-
-h4 {
-  color: var(--title);
-  font-family: "Oswald", serif;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 122%;
-}
-@media (max-width: 1399px) {
-  h4 {
-    font-size: 20px;
-  }
-}
-
-h5 {
-  font-family: "Oswald", serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 26px;
-}
-
-h6 {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 145%;
-}
-
-h2 a {
-  font-family: "Oswald", serif;
-  font-size: 70px;
-  line-height: 124%;
-  font-weight: 700;
-  display: inline-block;
-}
-@media (max-width: 767px) {
-  h2 a {
-    font-size: 34px;
-  }
-}
-@media (max-width: 575px) {
-  h2 a {
-    font-size: 28px;
-  }
-}
-
-h3 a {
-  font-family: "Oswald", serif;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 122%;
-  display: inline-block;
-}
-@media (max-width: 767px) {
-  h3 a {
-    font-size: 16px;
-  }
-}
-
-h4 a {
-  font-family: "Oswald", serif;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 122%;
-  display: inline-block;
-}
-@media (max-width: 450px) {
-  h4 a {
-    font-size: 20px;
-  }
-}
-
-h5 a {
-  font-family: "Oswald", serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  display: inline-block;
-}
-
-h6 a {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 145%;
-}
-
-a {
-  text-decoration: none;
-  outline: none !important;
-  cursor: pointer;
-  color: var(--header);
-  transition: all 0.4s ease-in-out;
-}
-a:hover {
-  color: var(--theme2) !important;
-}
-
-p {
-  margin: 0px;
-  transition: all 0.4s ease-in-out;
-  font-family: "Outfit', sans-serif";
-  color: var(--text);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.6;
-}
-
-span {
-  margin: 0px;
-  transition: all 0.4s ease-in-out;
-}
-
-span a {
-  font-family: "Outfit', sans-serif";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-}
-
 /* 04.Gutter */
 /*----------------------------------------------
     # Gutter  style here
@@ -934,6 +732,10 @@ span a {
   margin-bottom: 60px;
 }
 
+.pb-215 {
+  padding-bottom: 215px;
+}
+
 .bg-theme {
   background-color: var(--theme) !important;
 }
@@ -944,6 +746,11 @@ span a {
 
 .bg-gray-1 {
   background-color: var(--gray1);
+}
+
+.bg-area {
+  border-radius: 0px 10px 10px 0px;
+  background: radial-gradient(63.34% 56.34% at 49.96% 0%, #FFF 0%, #DEE6F3 100%);
 }
 
 img {
@@ -4340,6 +4147,65 @@ img {
 }
 .seller-section .seller-content .time-duration ul li img {
   padding-right: 10px;
+}
+
+.area-section .title-wrap .title {
+  color: #141B4D;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 106.176%; /* 63.706px */
+  letter-spacing: -3px;
+}
+.area-section .title-wrap .desc {
+  color: #141B4D;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 120.833% */
+  letter-spacing: 0.24px;
+}
+.area-section .area-box {
+  position: relative;
+}
+.area-section .area-box .title {
+  color: #141B4D;
+  font-family: Outfit;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px; /* 100% */
+}
+.area-section .area-box .desc {
+  color: #000;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  opacity: 0.8;
+}
+.area-section .area-box .area-wrapper {
+  position: relative;
+}
+.area-section .area-box .area-wrapper.style1 {
+  display: flex;
+  justify-content: center;
+  gap: 330px;
+}
+.area-section .area-box .area-wrapper.style2 {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+}
+.area-section .area-box .area-thumb {
+  position: absolute;
+  bottom: -10%;
+  left: 35%;
 }
 
 /* .Footer */

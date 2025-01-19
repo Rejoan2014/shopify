@@ -178,3 +178,78 @@
         }
     }
 }
+
+.area-section {
+    .title-wrap {
+        .title {
+            color: #141B4D;
+            text-align: center;
+            font-family: Outfit;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 106.176%; /* 63.706px */
+            letter-spacing: -3px;
+        }
+        .desc {
+            color: #141B4D;
+            text-align: center;
+            font-family: Outfit;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 29px; /* 120.833% */
+            letter-spacing: 0.24px;
+        }
+    }
+    .area-box {
+        position: relative;
+        .title {
+            color: #141B4D;
+            font-family: Outfit;
+            font-size: 29px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 29px; /* 100% */
+        }
+        .desc {
+            color: #000;
+            font-family: Outfit;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; /* 137.5% */
+            opacity: 0.8;
+        }
+        .area-wrapper {
+            position: relative;
+            &.style1 {
+                display: flex;
+                justify-content: center;
+                gap: 330px;
+                .item-one {
+    
+                }
+                .item-two {
+    
+                }
+            }
+            &.style2 {
+                display: flex;
+                justify-content: center;
+                gap: 400px;
+                .item-one {
+    
+                }
+                .item-two {
+    
+                }
+            }
+        }
+        .area-thumb{
+            position: absolute;
+            bottom: -10%;
+            left: 35%;
+        }
+    }
+}
