@@ -1,0 +1,180 @@
+.seller-section {
+    .seller-thumb-one {
+        padding-bottom: 16px;
+    }
+    .seller-thumb-gallery {
+        display: flex;
+        gap: 16px;
+    }
+    .seller-content {
+        .best-seller {
+            border-radius: 5px;
+            background: #ED4444;
+            display: inline-block;
+            padding: 5px 12px;
+            h6 {
+                color: #FFF;
+                font-family: Outfit;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: -0.3px;
+            }
+        }
+        .ratting {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .seller-title {
+            padding-top: 10px;
+            padding-bottom: 15px;
+            h2 {
+                color: #141B4D;
+                font-family: Outfit;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 106.176%; /* 63.706px */
+                letter-spacing: -3px;
+            }
+        }
+        .seller-profile-box {
+            padding: 16px 23px;
+            border-radius: 5px;
+            background: rgba(242, 242, 246, 0.66);
+            .profile {
+                display: flex;
+                gap: 10px;
+                padding-bottom: 10px;
+                .profile-content {
+                    .title {
+                        color: #141B4D;
+                        font-family: Outfit;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 21px; /* 150% */
+                    }
+                    .desc {
+                        color: #141B4D;
+                        font-family: Outfit;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 21px; /* 150% */
+                        opacity: 0.6;
+                    }
+                }
+            }
+            .seller-profile-content {
+                h5 {
+                    color: #3F446C;
+                    font-family: Outfit;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 22px; /* 137.5% */
+                }
+            }
+        }
+        .seller-info-list {
+            padding-bottom: 50px;
+            ul {
+                li {
+                    &:not(:last-child) {
+                        border-bottom: 1px solid rgba(219, 219, 219, 219);
+                    }
+                    span {
+                        padding-right: 5px;
+                    }
+                    color: #141B4D;
+                    font-family: Outfit;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 38px; /* 237.5% */
+                }
+            }
+        }
+        .seller-price-info {
+            padding-bottom: 20px;
+            .price {
+                padding-bottom: 25px;
+                color: #000;
+                font-family: Outfit;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 106.176%; /* 29.729px */
+                letter-spacing: -1.4px;
+                text-decoration-line: strikethrough;
+                .highLight {
+                    padding-left: 10px;
+                    color: #CF1010;
+                    font-family: Outfit;
+                    font-size: 38px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 106.176%; /* 40.347px */
+                    letter-spacing: -1.9px;
+                }
+            }
+            .card-info {
+                display: flex;
+                gap: 26px;
+                align-items: center;
+                .card-btn {
+                    border-radius: 5px;
+                    background: #1DB469;
+                    padding: 16px 82px;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Outfit;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 29px; /* 131.818% */
+                }
+                .plus-minus-btn {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    i {
+                        font-size: 14px;
+                        padding: 7px 9px;
+                        background-color: #e2e3e5;
+                        border-radius: 50px;
+                        -webkit-border-radius: 50px;
+                        -moz-border-radius: 50px;
+                        -ms-border-radius: 50px;
+                        -o-border-radius: 50px;
+                    }
+                }
+            }
+        }
+        .payment-card {
+            padding-bottom: 20px;
+        }
+        .time-duration {
+            ul {        
+                li {
+                    padding-bottom: 5px;
+                    color: #7D7D7D;
+                    font-family: Outfit;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 10px;
+                    span {
+                      color: #3385FF;
+                    }
+                    img {
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
