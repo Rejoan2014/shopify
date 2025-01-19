@@ -386,7 +386,6 @@
         .slider-thumb {
             position: relative;
             border-radius: 0px 0px 10px 10px;
-            background: #FFF;
             img {
                 width: 100%;
             }
@@ -394,10 +393,10 @@
                 position: absolute;
                 left: 20px;
                 right: 20px;
-                bottom: 120px;
+                bottom: 160px;
                 .title {
                     color: #FFF;
-                    font-family: Poppins;
+                    font-family:  $title-font;
                     font-size: 27.354px;
                     font-style: italic;
                     font-weight: 800;
@@ -406,7 +405,7 @@
                 }
                 .name {
                     color: #B6C3E7;
-                    font-family: Poppins;
+                    font-family:  $title-font;
                     font-size: 21.624px;
                     font-style: normal;
                     font-weight: 400;
@@ -429,7 +428,10 @@
             display: flex;
             align-items: center;
             position: relative;
-            padding-left: 90px;
+            padding: 10px 0 30px 0;
+            margin-top: -90px;
+            border-radius: 0px 0px 10px 10px;
+            background: #FFF;
 
             .max-thumb {
                 position: absolute;
@@ -437,7 +439,7 @@
                 left: 4%;
             }
             .max-content {
-                margin-top: -80px;
+                padding-left: 90px;
                 .title {
                     color: #141B4D;
                     font-family: Outfit;
