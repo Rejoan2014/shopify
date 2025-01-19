@@ -3,9 +3,10 @@
  ---------------------------------------------- */
  
  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Syne:wght@400..800&display=swap');
 
+$body-font:  "Outfit', sans-serif";
 $title-font: "Oswald", serif;
-$body-font:  "Plus Jakarta Sans", serif;
 $fa: "Font Awesome 6 Pro";
 body {
     font-family: $body-font;
