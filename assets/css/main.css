@@ -4208,6 +4208,105 @@ img {
   left: 35%;
 }
 
+.feature-section {
+  background-image: url("../images/feature/feature-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.feature-section .feature-content .fea-title {
+  color: #FFF;
+  font-family: Outfit;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 100% */
+  padding-bottom: 42px;
+}
+.feature-section .feature-content .fea-desc {
+  max-width: 515px;
+  color: #FFF;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 127.778% */
+}
+.feature-section .feature-content .fea-desc span {
+  color: #1DB469;
+}
+.feature-section .feature-content .list-item {
+  max-width: 575px;
+  display: flex;
+  gap: 10px;
+}
+.feature-section .feature-content .list-item .num {
+  width: 50px;
+  height: 50px;
+}
+.feature-section .feature-content .list-item .num span {
+  background-color: #1DB469;
+  color: #FFF;
+  padding: 0px 17px;
+  border-radius: 50px;
+  font-family: Outfit;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  width: 50px;
+  height: 50px;
+}
+.feature-section .feature-content .list-item .num span.two {
+  padding: 0px 14px;
+}
+.feature-section .feature-content .list-item .details {
+  color: #FFF;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.feature-section .feature-content .list-item .details span {
+  color: #1DB469;
+}
+.feature-section .duration {
+  padding-top: 260px;
+  padding-left: 100px;
+}
+.feature-section .duration .percentage {
+  padding-bottom: 30px;
+}
+.feature-section .duration .percentage span {
+  color: #FFF;
+  text-align: right;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  background-color: #1DB469;
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+.feature-section .duration .minute {
+  padding-left: 84px;
+}
+.feature-section .duration .minute span {
+  color: #FFF;
+  text-align: right;
+  font-family: Outfit;
+  font-size: 22px;
+  padding: 8px 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 136.364% */
+  background-color: #1DB469;
+  border-radius: 50px;
+}
+
 /* .Footer */
 /*----------------------------------------------
     # Footer style here
