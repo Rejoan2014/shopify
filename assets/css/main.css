@@ -15,6 +15,7 @@ Description: DirPoint - Ultimate Business Directory Listing CMS  <
 /* 01.Mixins */
 /*-- Padding Left And Right --*/
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Syne:wght@400..800&display=swap");
 .px-5 {
   padding-right: 5px;
   padding-left: 5px;
@@ -564,7 +565,7 @@ Description: DirPoint - Ultimate Business Directory Listing CMS  <
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
 body {
-  font-family: "Plus Jakarta Sans", serif;
+  font-family: "Outfit', sans-serif";
   font-size: 16px;
   font-weight: normal;
   line-height: 28px;
@@ -768,7 +769,7 @@ a:hover {
 p {
   margin: 0px;
   transition: all 0.4s ease-in-out;
-  font-family: "Plus Jakarta Sans", serif;
+  font-family: "Outfit', sans-serif";
   color: var(--text);
   font-size: 18px;
   font-style: normal;
@@ -782,7 +783,7 @@ span {
 }
 
 span a {
-  font-family: "Plus Jakarta Sans", serif;
+  font-family: "Outfit', sans-serif";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -2266,7 +2267,7 @@ img {
 }
 .header-top-area .header-top-wrapper .content ul li {
   color: #737373;
-  font-family: "Plus Jakarta Sans", serif;
+  font-family: "Outfit', sans-serif";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -2332,7 +2333,7 @@ img {
   display: block;
   position: relative;
   color: var(--theme);
-  font-family: "Plus Jakarta Sans", serif;
+  font-family: "Outfit', sans-serif";
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -2523,7 +2524,7 @@ img {
 }
 .header-button .info-text p {
   color: var(--theme);
-  font-family: "Plus Jakarta Sans", serif;
+  font-family: "Outfit', sans-serif";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -2532,7 +2533,7 @@ img {
 }
 .header-button .info-text h4 {
   color: var(--theme);
-  font-family: "Plus Jakarta Sans", serif;
+  font-family: "Outfit', sans-serif";
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
@@ -3480,7 +3481,7 @@ img {
   background-color: transparent;
   font-size: 16px;
   width: 100%;
-  font-family: "Plus Jakarta Sans", serif;
+  font-family: "Outfit', sans-serif";
   transition: 0.4s ease-in-out;
   border-radius: 0px;
 }
@@ -3716,7 +3717,7 @@ img {
 }
 .section-top__desc {
   color: var(--title);
-  font-family: "Plus Jakarta Sans", serif;
+  font-family: "Outfit', sans-serif";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -3934,7 +3935,7 @@ img {
 }
 .service1-card__desc {
   color: var(--title);
-  font-family: "Plus Jakarta Sans", serif;
+  font-family: "Outfit', sans-serif";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
