@@ -216,6 +216,9 @@
 
 .area-section {
     .title-wrap {
+        @include breakpoint (max-lg) {
+            padding-bottom: 70px;
+        }
         .title {
             color: #141B4D;
             text-align: center;
@@ -225,6 +228,12 @@
             font-weight: 600;
             line-height: 106.176%; /* 63.706px */
             letter-spacing: -3px;
+            @include breakpoint (max-md) {
+                font-size: 40px;
+            }
+            @include breakpoint (max-xxsmall) {
+                font-size: 36px;
+            }
         }
         .desc {
             color: #141B4D;
@@ -246,6 +255,15 @@
             font-style: normal;
             font-weight: 500;
             line-height: 29px; /* 100% */
+            @include breakpoint (max-sm) {
+                font-size: 18px;
+                padding-bottom: 10px;
+            }
+            img {
+                @include breakpoint (max-md) {
+                    display: none;
+                }
+            }
         }
         .desc {
             color: #000;
@@ -262,22 +280,28 @@
                 display: flex;
                 justify-content: center;
                 gap: 330px;
-                .item-one {
-    
+                @include breakpoint (max-lg) {
+                    gap: 130px;
                 }
-                .item-two {
-    
+                @include breakpoint (max-sm) {
+                    gap: 90px;
+                }
+                @include breakpoint (max-xxsmall) {
+                    gap: 50px;
                 }
             }
             &.style2 {
                 display: flex;
                 justify-content: center;
                 gap: 400px;
-                .item-one {
-    
+                @include breakpoint (max-lg) {
+                    gap: 130px;
                 }
-                .item-two {
-    
+                @include breakpoint (max-sm) {
+                    gap: 90px;
+                }
+                @include breakpoint (max-xxsmall) {
+                    gap: 50px;
                 }
             }
         }
@@ -285,6 +309,15 @@
             position: absolute;
             bottom: -10%;
             left: 35%;
+            @include breakpoint (max-xxl) {
+                left: 30%;
+            }
+            @include breakpoint (max-lg) {
+                position: sticky;
+                display: flex;
+                justify-content: center;
+                padding-bottom: 70px;
+            }
         }
     }
 }
@@ -296,25 +329,40 @@
     background-size: cover;
     object-fit: cover;
     .feature-content {
-        .fea-title {
-            color: #FFF;
-            font-family: Outfit;
-            font-size: 60px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 60px; /* 100% */
-            padding-bottom: 42px;
-        }
-        .fea-desc {
-            max-width: 515px;
-            color: #FFF;
-            font-family: Outfit;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 23px; /* 127.778% */
-            span {
-                color: #1DB469;
+        .title-wrap {
+            .fea-title {
+                color: #FFF;
+                font-family: Outfit;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 60px; /* 100% */
+                padding-bottom: 42px;
+                @include breakpoint (max-md) {
+                    font-size: 50px;
+                    padding-bottom: 30px;
+                }
+                @include breakpoint (max-sm) {
+                    font-size: 36px;
+                    padding-bottom: 22px;
+                }
+            }
+            .fea-desc {
+                max-width: 515px;
+                color: #FFF;
+                font-family: Outfit;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 23px; /* 127.778% */
+                span {
+                    color: #1DB469;
+                }
+            }
+            &.pb-80 {
+                @include breakpoint (max-md) {
+                    padding-bottom: 50px;
+                }
             }
         }
         .list-item {
@@ -357,6 +405,10 @@
     .duration {
         padding-top: 260px;
         padding-left: 100px;
+        @include breakpoint (max-xl) {
+            padding-top: 0px;
+            padding-left: 0px;
+        }
         .percentage {
             padding-bottom: 30px;
             span {
@@ -375,6 +427,9 @@
         }
         .minute {
             padding-left: 84px; 
+            @include breakpoint (max-xl) {
+                padding-left: 0px; 
+            }
             span {
                 color: #FFF;
                 text-align: right;
@@ -404,6 +459,9 @@
             line-height: 122%; /* 69.54px */
             letter-spacing: -2.85px;
             padding-bottom: 28px;
+            @include breakpoint (max-md) {
+                font-size: 38px;
+            }
         }
         .desc {
             color: #3F474B;
@@ -573,6 +631,9 @@
             .price-list {
                 text-align: left;
                 padding-left: 75px;
+                @include breakpoint (max-xxsmall) {
+                    padding-left: 35px;
+                }
 
                 ul {
                     li {
@@ -609,6 +670,10 @@
                     line-height: 29px; /* 138.095% */
                     display: block;
                     text-decoration: none;
+                    @include breakpoint (max-md) {
+                        padding: 8px 12px;
+                         font-size: 16px;
+                    }
                 }
             }
             .curent-text {
