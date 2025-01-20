@@ -2206,20 +2206,24 @@ img {
   line-height: 21px; /* 131.25% */
   opacity: 0.8;
 }
-.slier-section .slider-item .slider-thumb {
+.slier-section .slider-area {
+  margin-right: -400px;
+  position: relative;
+}
+.slier-section .slider-area .slider-item .slider-thumb {
   position: relative;
   border-radius: 0px 0px 10px 10px;
 }
-.slier-section .slider-item .slider-thumb img {
+.slier-section .slider-area .slider-item .slider-thumb img {
   width: 100%;
 }
-.slier-section .slider-item .slider-thumb .slider-content {
+.slier-section .slider-area .slider-item .slider-thumb .slider-content {
   position: absolute;
   left: 20px;
   right: 20px;
   bottom: 160px;
 }
-.slier-section .slider-item .slider-thumb .slider-content .title {
+.slier-section .slider-area .slider-item .slider-thumb .slider-content .title {
   color: #FFF;
   font-family: "Poppins", sans-serif;
   font-size: 27.354px;
@@ -2228,7 +2232,7 @@ img {
   line-height: 110%; /* 30.089px */
   padding-bottom: 24px;
 }
-.slier-section .slider-item .slider-thumb .slider-content .name {
+.slier-section .slider-area .slider-item .slider-thumb .slider-content .name {
   color: #B6C3E7;
   font-family: "Poppins", sans-serif;
   font-size: 21.624px;
@@ -2236,18 +2240,18 @@ img {
   font-weight: 400;
   line-height: 110%; /* 23.786px */
 }
-.slier-section .slider-item .slider-thumb .play-icon {
+.slier-section .slider-area .slider-item .slider-thumb .play-icon {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.slier-section .slider-item .slider-thumb .mute {
+.slier-section .slider-area .slider-item .slider-thumb .mute {
   position: absolute;
   right: 16px;
   bottom: 95px;
 }
-.slier-section .slider-item .max-area {
+.slier-section .slider-area .slider-item .max-area {
   display: flex;
   align-items: center;
   position: relative;
@@ -2256,15 +2260,15 @@ img {
   border-radius: 0px 0px 10px 10px;
   background: #FFF;
 }
-.slier-section .slider-item .max-area .max-thumb {
+.slier-section .slider-area .slider-item .max-area .max-thumb {
   position: absolute;
   bottom: 0;
   left: 4%;
 }
-.slier-section .slider-item .max-area .max-content {
+.slier-section .slider-area .slider-item .max-area .max-content {
   padding-left: 90px;
 }
-.slier-section .slider-item .max-area .max-content .title {
+.slier-section .slider-area .slider-item .max-area .max-content .title {
   color: #141B4D;
   font-family: Outfit;
   font-size: 19.272px;
@@ -2273,7 +2277,7 @@ img {
   line-height: 16.189px; /* 84% */
   padding-bottom: 10px;
 }
-.slier-section .slider-item .max-area .max-content .desc {
+.slier-section .slider-area .slider-item .max-area .max-content .desc {
   color: #000;
   font-family: Outfit;
   font-size: 12.334px;
