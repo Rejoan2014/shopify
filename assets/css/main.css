@@ -1860,10 +1860,10 @@ img {
 }
 
 /* 14.seller */
-.seller-section .seller-thumb-one {
+.seller-section .seller-thumb .seller-thumb-one {
   padding-bottom: 16px;
 }
-.seller-section .seller-thumb-gallery-item {
+.seller-section .seller-thumb .seller-thumb-gallery-item {
   display: flex;
   gap: 16px;
 }
