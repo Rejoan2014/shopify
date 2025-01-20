@@ -477,3 +477,127 @@
     justify-content: space-between;
     padding-top: 50px;
 }
+
+.card-section {
+    .pricing-card {
+        border-radius: 15px;
+        background: #FFF;
+        .card-header {
+            border-radius: 15px 15px 0px 0px;
+            background: #DEE7EE;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #000;
+            text-align: center;
+            font-family: Outfit;
+            font-size: 29px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 29px; /* 100% */
+        }
+        .card-thumb {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 22px;
+        }
+        .card-content {
+            text-align: center;
+            padding: 0 42px;
+            .off-price {
+                display: inline-block;
+                padding: 0 10px;
+                margin: 30px 0 0px 0;
+                background: #FFEAEB;
+                color: #A9090B;
+                text-align: center;
+                font-family: Outfit;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 29px; /* 145% */
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+            .price {
+                color: #D1D0E0;
+                font-family: Outfit;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 60px; /* 352.941% */
+                text-decoration-line: strikethrough;
+                span {
+                    color: #141B4D;
+                    font-family: Outfit;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 60px; /* 166.667% */
+                }
+            }
+            .price-list {
+                text-align: left;
+                padding-left: 75px;
+
+                ul {
+                    li {
+                        color: #141B4D;
+                        font-family: Outfit;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 41px; /* 273.333% */
+
+                        span {
+                            margin-right: 7px;
+                        }
+                    }
+                }
+            }
+            .card-btn {
+                padding-top: 20px;
+                a {
+                    width: 100%;
+                    text-align: center;
+                    padding: 12px 67px;
+                    background-color: #1DB469;
+                    border-radius: 5px;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Outfit;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 29px; /* 138.095% */
+                    display: block;
+                    text-decoration: none;
+                }
+            }
+            .curent-text {
+                color: #3A3A3A;
+                text-align: center;
+                font-family: Outfit;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 44px; /* 275% */
+                span {
+                    color: #3A3A3A;
+                    font-family: Outfit;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 44px;
+                }
+            }
+        }
+        .payment-card {
+            border-radius: 0 0 15px 15px;
+            background: #DEE7EE;
+            padding: 12px 0;
+            margin-top: 8px;
+            text-align: center;
+        }
+    }
+}
