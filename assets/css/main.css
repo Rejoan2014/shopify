@@ -1863,10 +1863,9 @@ img {
 .seller-section .seller-thumb-one {
   padding-bottom: 16px;
 }
-.seller-section .seller-thumb-gallery {
+.seller-section .seller-thumb-gallery-item {
   display: flex;
   gap: 16px;
-  flex-wrap: wrap;
 }
 .seller-section .seller-content {
   max-width: 442px;
