@@ -1866,6 +1866,10 @@ img {
 .seller-section .seller-thumb-gallery {
   display: flex;
   gap: 16px;
+  flex-wrap: wrap;
+}
+.seller-section .seller-content {
+  max-width: 442px;
 }
 .seller-section .seller-content .best-seller {
   border-radius: 5px;
@@ -1889,8 +1893,8 @@ img {
   gap: 10px;
 }
 .seller-section .seller-content .seller-title {
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .seller-section .seller-content .seller-title h2 {
   color: #141B4D;
@@ -1900,6 +1904,11 @@ img {
   font-weight: 500;
   line-height: 106.176%; /* 63.706px */
   letter-spacing: -3px;
+}
+@media (max-width: 767px) {
+  .seller-section .seller-content .seller-title h2 {
+    font-size: 40px;
+  }
 }
 .seller-section .seller-content .seller-profile-box {
   padding: 16px 23px;
@@ -1937,7 +1946,8 @@ img {
   line-height: 22px; /* 137.5% */
 }
 .seller-section .seller-content .seller-info-list {
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 35px;
 }
 .seller-section .seller-content .seller-info-list ul li {
   color: #141B4D;
@@ -1994,14 +2004,29 @@ img {
   font-weight: 500;
   line-height: 29px; /* 131.818% */
 }
+@media (max-width: 575px) {
+  .seller-section .seller-content .seller-price-info .card-info .card-btn {
+    padding: 10px 32px;
+    font-size: 18px;
+  }
+}
 .seller-section .seller-content .seller-price-info .card-info .plus-minus-btn {
   display: flex;
   align-items: center;
   gap: 15px;
 }
+.seller-section .seller-content .seller-price-info .card-info .plus-minus-btn .num {
+  color: #141B4D;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 106.176%; /* 31.853px */
+  letter-spacing: -1.5px;
+}
 .seller-section .seller-content .seller-price-info .card-info .plus-minus-btn i {
-  font-size: 14px;
-  padding: 7px 9px;
+  padding: 8px 9px;
   background-color: #e2e3e5;
   border-radius: 50px;
   -webkit-border-radius: 50px;
