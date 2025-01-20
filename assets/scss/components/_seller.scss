@@ -385,6 +385,10 @@
     .slider-area {
         margin-right: -400px;
         position: relative;
+        @include breakpoint(max-lg) {
+            margin-right: 0;
+        }
+        
         .slider-item {
             .slider-thumb {
                 position: relative;
@@ -466,4 +470,10 @@
         }
     }
 
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
 }

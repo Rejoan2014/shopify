@@ -2210,6 +2210,11 @@ img {
   margin-right: -400px;
   position: relative;
 }
+@media (max-width: 991px) {
+  .slider-section .slider-area {
+    margin-right: 0;
+  }
+}
 .slider-section .slider-area .slider-item .slider-thumb {
   position: relative;
   border-radius: 0px 0px 10px 10px;
@@ -2285,4 +2290,10 @@ img {
   font-weight: 400;
   line-height: 16.189px; /* 131.25% */
   opacity: 0.6;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
 }/*# sourceMappingURL=main.css.map */

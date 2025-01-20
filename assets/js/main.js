@@ -341,6 +341,13 @@
     });
 
 
+            // Initialize Swipers on page load
+            var swiperInstances = [];
+            $('.ct-slider').each(function () {
+                var sliderContainer = $(this);
+                var swiperInstance = initializeSwiper(sliderContainer);
+                swiperInstances.push(swiperInstance);
+            });
 
     /*-----------------------------------
            08. Back to top    
