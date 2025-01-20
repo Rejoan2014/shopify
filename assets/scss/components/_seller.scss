@@ -1,15 +1,25 @@
 .seller-section {
     .seller-thumb {
-        // display: flex;
-        // gap: 6px;
+        @include breakpoint (max-md) {
+            display: none;
+        }
         .seller-thumb-one {
             padding-bottom: 16px;
         }
         .seller-thumb-gallery-item {
             display: flex;
             gap: 16px;
-            // flex-direction: column;
-            // gap: 7px;
+        }
+        &.style1 {
+            display: flex;
+            gap: 6px;
+            @include breakpoint (md) {
+                display: none;
+            }
+            .seller-thumb-gallery-item {
+                flex-direction: column;
+                gap: 7px;
+            }
         }
     }
     .seller-content {

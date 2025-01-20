@@ -1860,12 +1860,30 @@ img {
 }
 
 /* 14.seller */
+@media (max-width: 767px) {
+  .seller-section .seller-thumb {
+    display: none;
+  }
+}
 .seller-section .seller-thumb .seller-thumb-one {
   padding-bottom: 16px;
 }
 .seller-section .seller-thumb .seller-thumb-gallery-item {
   display: flex;
   gap: 16px;
+}
+.seller-section .seller-thumb.style1 {
+  display: flex;
+  gap: 6px;
+}
+@media (min-width: 768px) {
+  .seller-section .seller-thumb.style1 {
+    display: none;
+  }
+}
+.seller-section .seller-thumb.style1 .seller-thumb-gallery-item {
+  flex-direction: column;
+  gap: 7px;
 }
 .seller-section .seller-content {
   max-width: 442px;
