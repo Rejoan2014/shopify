@@ -2376,6 +2376,9 @@ img {
 .card-section .pricing-card .card-content .price-list ul li span {
   margin-right: 7px;
 }
+.card-section .pricing-card .card-content .price-list ul li span img {
+  border-radius: 50%;
+}
 .card-section .pricing-card .card-content .card-btn {
   padding-top: 20px;
 }
@@ -2418,4 +2421,88 @@ img {
   padding: 12px 0;
   margin-top: 8px;
   text-align: center;
+}
+.card-section .pricing-card.style1 {
+  background: #071C53;
+}
+.card-section .pricing-card.style1 .card-header {
+  border-radius: 15px 15px 0px 0px;
+  background: #C90100;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #FFF;
+}
+.card-section .pricing-card.style1 .delu-text {
+  color: #FCFCFC;
+  font-family: Outfit;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+  padding-top: 15px;
+}
+.card-section .pricing-card.style1 .card-thumb {
+  padding-top: 0px;
+}
+.card-section .pricing-card.style1 .popular-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #EA7E00;
+  padding: 9px auto;
+}
+.card-section .pricing-card.style1 .card-content .price span {
+  color: #FCCC5D;
+}
+.card-section .pricing-card.style1 .card-content .middle-content .desc {
+  color: #FFF;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px; /* 205% */
+}
+.card-section .pricing-card.style1 .card-content .middle-content .price {
+  color: #FFF;
+  font-family: Outfit;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 187.5% */
+}
+.card-section .pricing-card.style1 .card-content .middle-content .details {
+  color: #FFF;
+  font-family: Outfit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px; /* 341.667% */
+}
+.card-section .pricing-card.style1 .card-content .middle-content .details span {
+  background-color: #b5f3d4;
+  border-radius: 100px;
+  color: #000;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+.card-section .pricing-card.style1 .card-content .middle-content .term {
+  color: #FFF;
+  padding-bottom: 10px;
+  padding-top: 6px;
+}
+.card-section .pricing-card.style1 .card-content .price-list ul li {
+  color: #FFF;
+}
+.card-section .pricing-card.style1 .card-content .curent-text {
+  color: #FFF;
+}
+.card-section .pricing-card.style1 .card-content .curent-text span {
+  color: #FFF;
 }/*# sourceMappingURL=main.css.map */
